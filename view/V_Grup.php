@@ -12,8 +12,8 @@ class V_Grup
             <td>" . $no . "</td>
             <td>" . $name . "</td>
             <td>
-                <a href='cult.php?id_edit=" . $id .  "' class='btn btn-success' '>Edit</a>
-                <a href='cult.php?id_hapus=" . $id . "' class='btn btn-danger' '>Hapus</a>
+                <a href='grup.php?id_edit=" . $id .  "' class='btn btn-success' '>Edit</a>
+                <a href='grup.php?id_hapus=" . $id . "' class='btn btn-danger' '>Hapus</a>
             </td>
             </tr>";
             $no++;
